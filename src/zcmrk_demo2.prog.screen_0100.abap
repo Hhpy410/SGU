@@ -1,0 +1,6 @@
+PROCESS BEFORE OUTPUT.
+  MODULE display_alv_data_100.
+*
+PROCESS AFTER INPUT.
+  MODULE exit AT EXIT-COMMAND.
+  MODULE user_command_0100.

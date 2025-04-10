@@ -1,0 +1,13 @@
+PROCESS BEFORE OUTPUT.
+
+  MODULE display_alv_data_s200.
+*
+PROCESS AFTER INPUT.
+  MODULE exit AT EXIT-COMMAND.
+
+  CHAIN.
+    FIELD gs_s200-stno.
+    MODULE stno_check ON CHAIN-REQUEST.
+  ENDCHAIN.
+
+  MODULE user_command_0200.

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SICF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <URL>/sap/bc/webdynpro/sap/ZCMWK000/</URL>
+   <ICFSERVICE>
+    <ICF_NAME>ZCMWK000</ICF_NAME>
+    <ICF_LANGU>3</ICF_LANGU>
+    <OBLUSRFLAG>X</OBLUSRFLAG>
+    <LOGIN_PROCESS>O</LOGIN_PROCESS>
+    <NO_SESSION_MANAGEMENT>F</NO_SESSION_MANAGEMENT>
+    <ORIG_NAME>ZCMWK000</ORIG_NAME>
+   </ICFSERVICE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

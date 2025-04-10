@@ -1,0 +1,58 @@
+PROCESS BEFORE OUTPUT.
+*                      Verarbeitung vor der Ausgabe
+     MODULE INIT.
+
+     MODULE INIT_PTSUB.
+     MODULE ASSIGN_TC3000.
+     MODULE PAGE_NUMBERS.
+
+     LOOP.
+       MODULE FILL_DYNPRO_TC.
+       MODULE FILL_FIRST_TAB_LINE.
+     ENDLOOP.
+
+*
+PROCESS AFTER INPUT.
+*                      Verarbeitung nach der Eingabe
+*    FIELD .....
+
+    MODULE EXIT AT EXIT-COMMAND.
+
+    MODULE LEAVE.
+
+    FIELD PPHDX-PAGE_NR MODULE SET_PAGE_NR_TC ON REQUEST.
+
+    LOOP.
+      MODULE LINE_SELECT_TC.
+      MODULE SET_LINE_COUNT.
+    ENDLOOP.
+
+    MODULE LINE_ACTION.
+    MODULE OK-CODE.
+    MODULE ADJUST_PAGE.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

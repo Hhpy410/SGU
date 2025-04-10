@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZCM05</ARBGB>
+    <MASTERLANG>3</MASTERLANG>
+    <STEXT>수강신청 메세지</STEXT>
+   </T100A>
+   <I18N_LANGS>
+    <LANGU>3</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZCM05</ARBGB>
+     <STEXT>수강신청 메세지</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp; &amp; &amp; &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>해당 라인을 선택하세요.[단일선택가능]</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>해당 라인을 선택하세요.[복수선택가능]</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>변경된 내용이 없습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>학년별 순서를 확인하세요.</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>처리되었습니다, 저장 버튼을 클릭하여 변경을 완료하시기 바랍니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>저장되지 않은 변경/삭제된 데이터가 존재합니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>저장하지 않고, 나가시겠습니까?</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>변경된 내용이 없습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>&amp;은(는) 필수입력 입니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>성공적으로 저장되었습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>데이터 저장중 오류가 발생했습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>저장할 데이터가 없습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>성공적으로 삭제하였습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>데이터 삭제중 오류가 발생했습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>활동 시작일과 활동 종료일은 겹칠수 없습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>신청중인 건만 승인/반려 처리할 수 있습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>승인완료된 건만 처리완료 할수있습니다.</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

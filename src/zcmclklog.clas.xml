@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCMCLKLOG</CLSNAME>
+    <LANGU>3</LANGU>
+    <DESCRIPT>수강신청 로그</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_CLASS>
+    <SEOCLASSTX>
+     <LANGU>3</LANGU>
+     <DESCRIPT>수강신청 로그</DESCRIPT>
+    </SEOCLASSTX>
+   </DESCRIPTIONS_CLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GO_VIEW</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>[U4A] UI Element Super Class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_STID</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>학생 오브젝트 ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_UNAME</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>사용자 이름</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IO_VIEW</SCONAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>[U4A] UI Element Super Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SAVE</CMPNAME>
+     <SCONAME>I_CATEG</SCONAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>로그 분류</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
