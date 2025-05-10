@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <INCLUDES>
+    <SOBJ_NAME>LZCMFGK010TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZCMFGK010</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZCMK_SESSION_DELETE</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>USER</PARAMETER>
+       <DBFIELD>SY-UNAME</DBFIELD>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>CLIENT</PARAMETER>
+       <DBFIELD>SY-MANDT</DBFIELD>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>ONLY_POOLED_USER</PARAMETER>
+       <DBFIELD>SM04DIC-FLAG</DBFIELD>
+       <DEFAULT>&apos; &apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>TID</PARAMETER>
+       <DBFIELD>SY-INDEX</DBFIELD>
+       <DEFAULT>-1</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>LOGINID</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>SY-INDEX</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>USER</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CLIENT</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ONLY_POOLED_USER</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TID</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LOGINID</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

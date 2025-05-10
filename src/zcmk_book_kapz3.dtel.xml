@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZCMK_BOOK_KAPZ3</ROLLNAME>
+    <DOMNAME>DEC5</DOMNAME>
+    <HEADLEN>08</HEADLEN>
+    <SCRLEN1>08</SCRLEN1>
+    <SCRLEN2>08</SCRLEN2>
+    <SCRLEN3>08</SCRLEN3>
+    <DTELMASTER>3</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>3</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>3학년 인원제한</DDTEXT>
+     <REPTEXT>3학년 인원제한</REPTEXT>
+     <SCRTEXT_S>3학년 인원제한</SCRTEXT_S>
+     <SCRTEXT_M>3학년 인원제한</SCRTEXT_M>
+     <SCRTEXT_L>3학년 인원제한</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

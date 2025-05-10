@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_U4A_APP_CMUI_RE</CLSNAME>
+    <LANGU>3</LANGU>
+    <DESCRIPT>학사 공통</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_CLASS>
+    <SEOCLASSTX>
+     <LANGU>3</LANGU>
+     <DESCRIPT>학사 공통</DESCRIPT>
+    </SEOCLASSTX>
+   </DESCRIPTIONS_CLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GS_MAJOR</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>학생 전공검색</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GS_STPROG</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>[CM] 학생진급 - 학년도/학기 조회</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GS_ST_INFO</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>[CM] 학생 상세 정보 Line Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_KEYDT</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>일자</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_STNO</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>학생 번호</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
